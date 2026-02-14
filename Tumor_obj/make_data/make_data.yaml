@@ -1,0 +1,14 @@
+#json_dir: /home/data/data-fhs/2024S1_SDEV/PG/xueguan/prepare_dataset/dataset/json/old_json # json 地址文件夹
+#svs_dir: /home/data/data-fhs/2024S1_SDEV/PG/xueguan/prepare_dataset/dataset/svs # svs 地址文件夹
+#save_dir: /home/data/data-fhs/2024S1_SDEV/PG/xueguan/prepare_dataset/ds2_with_neg/ds2 # 数据集保存地址
+json_dir: /home/zyj/demo/xianpao/data/pre_data/old_json # json 地址文件夹
+svs_dir: /home/zyj/demo/xianpao/data/pre_data/svs # svs 地址文件夹
+save_dir: /home/zyj/demo/xianpao/data/pre_data/ds_xp # 数据集保存地址
+
+data_flag:
+    { 'model_type': 'u2net' , # 数据集类型 yolo_v3,u2net
+    'label_list': ['xianpao'] , # 类别列表。 空则处理全部标签。
+    'level_ds': 1, # 缩放比例。1
+    'img_h_w': [ 512, 512 ], # 图片高、宽。
+    'step': 512, # 切割步长。
+    }
